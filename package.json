@@ -1,0 +1,15 @@
+{
+  "name": "02-local-storage",
+  "version": "1.1.0",
+  "description": "This section explores local storage, one way of storing data in a PWA>",
+  "scripts": {
+    "start": "http-server -c-1 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
