@@ -1,5 +1,9 @@
 # Progressive Web App (PWA) - Todo List
 
+## Created By
+
+Vrushali Prajapati - A00476517
+
 ## Overview
 
 This is a simple Progressive Web App (PWA) designed to manage a todo list. The app allows users to add, delete, and view tasks, and it includes offline functionality through a service worker.
@@ -51,3 +55,4 @@ Check attached Demo
   <source src="https://github.com/A00476517/PWA_assignment/blob/main/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<a href="https://github.com/A00476517/PWA_assignment/blob/main/demo.mp4"> click here for demo </a>
