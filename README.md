@@ -51,5 +51,7 @@ Check attached Demo
 
 ## Demo
 
+https://github.com/A00476517/PWA_assignment/assets/144840145/88f724c3-a5f7-41da-8a94-6a5fb0f17bc7
 
-https://github.com/A00476517/PWA_assignment/assets/144840145/f0b3c40d-e05e-4011-a485-59ff2bb55593
+
+
