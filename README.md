@@ -33,8 +33,8 @@ This is a simple Progressive Web App (PWA) designed to manage a todo list. The a
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-
+   git clone https://github.com/A00476517/PWA_assignment.git
+   
 2. Install Liabrary 
 
    ```bash
