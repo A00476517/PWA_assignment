@@ -51,8 +51,13 @@ Check attached Demo
 
 ## Demo
 
+<<<<<<< HEAD
 <video width="320" height="240" controls>
   <source src="https://github.com/A00476517/PWA_assignment/blob/main/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <a href="https://github.com/A00476517/PWA_assignment/blob/main/demo.mp4"> click here for demo </a>
+=======
+
+https://github.com/A00476517/PWA_assignment/assets/144840145/f0b3c40d-e05e-4011-a485-59ff2bb55593
+>>>>>>> 48e93aff90d07e7b6e3ef3f3590ffe0f01974bd4
