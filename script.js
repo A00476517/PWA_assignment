@@ -45,44 +45,12 @@ form.onsubmit = (event) => {
   addTodo(input.value, priority);
 };
 
-// function deleteSelectedTodos() {
-//   const checkboxes = document.querySelectorAll("[type='checkbox']:checked");
-//   if (checkboxes.length === 0) {
-//     alert("Please select at least one todo to delete.");
-//     return;
-//   }
-
-//   checkboxes.forEach((checkbox) => {
-//     const todoText = checkbox.parentNode.textContent.trim();
-//     const index = todoData.indexOf(todoText);
-
-//     if (index !== -1) {
-//       todoData.splice(index, 1);
-//       // Update local storage even when offline
-//       localStorage.setItem("todos", JSON.stringify(todoData));
-
-//       // Check if service worker is registered
-//       if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
-//         // Send a message to the service worker to delete the todo
-//         navigator.serviceWorker.controller.postMessage({
-//           type: "deleteTodo",
-//           todoText: todoText,
-//         });
-//       }
-//     }
-
-//     checkbox.parentNode.remove();
-//   });
-// }
-
-// // Event listener for delete button
-// document.getElementById("deleteBtn").addEventListener("click", deleteSelectedTodos);
-
-
-
 document.getElementById("deleteBtn").addEventListener("click", deleteSelectedTodos);
 
 // Updated deleteSelectedTodos function
+/*
+It will delete todo
+*/
 function deleteSelectedTodos() {
   console.log("Delete button clicked");
 
@@ -118,6 +86,9 @@ function deleteSelectedTodos() {
 }
 
 // Modify addTodo function to include checkboxes
+/*
+This will add new todo with priority
+*/
 function addTodo(todoText, priority) {
   // Create an object to represent the todo task
   const todoTask = {
