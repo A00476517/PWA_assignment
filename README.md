@@ -47,7 +47,5 @@ Check attached Demo
 
 ## Demo
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/A00476517/PWA_assignment/blob/main/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/A00476517/PWA_assignment/assets/144840145/f0b3c40d-e05e-4011-a485-59ff2bb55593
