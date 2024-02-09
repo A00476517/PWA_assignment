@@ -41,7 +41,8 @@ function addTodo(todoText) {
 // Events
 form.onsubmit = (event) => {
   event.preventDefault();
-  addTodo(input.value);
+  const priority = document.querySelector("[name='priority']").value; // Get priority value from the dropdown
+  addTodo(input.value, priority);
 };
 
 // function deleteSelectedTodos() {
@@ -117,17 +118,27 @@ function deleteSelectedTodos() {
 }
 
 // Modify addTodo function to include checkboxes
-function addTodo(todoText) {
-  todoData.push(todoText);
+function addTodo(todoText, priority) {
+  // Create an object to represent the todo task
+  const todoTask = {
+    text: todoText,
+    priority: priority,
+  };
+
+  // Add the task to the data array
+  todoData.push(todoTask);
+
+  // Create a list item
   const li = document.createElement("li");
-  
+
   // Add a checkbox for each todo
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   li.appendChild(checkbox);
-  
+
   // Add the todo text
-  li.innerHTML += todoText;
+  const todoTextNode = document.createTextNode(` ${todoText} (Priority: ${priority})`);
+  li.appendChild(todoTextNode);
 
   // Append the li to the todo list
   todoList.appendChild(li);
